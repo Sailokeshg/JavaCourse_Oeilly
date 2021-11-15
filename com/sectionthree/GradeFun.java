@@ -1,14 +1,14 @@
-package sectionthree;
+package com.sectionthree;
 
 import java.util.Scanner;
 
 public class GradeFun {
     public static void main(String[] args){
-        Scanner sc=new Scanner(System.in);
+        Scanner keyBoard=new Scanner(System.in);
 
         char grade;
         System.out.println("Enter a  grade");
-        grade=sc.next().charAt(0);
+        grade=keyBoard.next().charAt(0);
 
         switch (grade){
             case 'A':

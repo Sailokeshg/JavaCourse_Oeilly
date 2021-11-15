@@ -1,16 +1,16 @@
-package sectionthree;
+package com.sectionthree;
 
 import java.util.Scanner;
 
 public class Fraternity {
     public static void main(String[] args){
-        Scanner sc=new Scanner(System.in);
+        Scanner keyBoard=new Scanner(System.in);
         int age;
         char gender;
 
         System.out.println("Enter your age and gender");
-        age=sc.nextInt();
-        gender=sc.next().charAt(0);
+        age=keyBoard.nextInt();
+        gender=keyBoard.next().charAt(0);
 
         if (age>=19  && gender=='M'){
             System.out.println("You can join fraternity");

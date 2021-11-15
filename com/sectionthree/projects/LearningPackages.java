@@ -1,10 +1,10 @@
-package sectionthree;
+package com.sectionthree.projects;
 
 import java.util.Scanner;
 
 public class LearningPackages {
     public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
+        Scanner keyBoard = new Scanner(System.in);
         int packageNo;
         int courses;
         int totalCost;
@@ -13,10 +13,10 @@ public class LearningPackages {
         int numIncluded;
 
         System.out.println("Enter your desired package");
-        packageNo=sc.nextInt();
+        packageNo=keyBoard.nextInt();
 
         System.out.println("No of courses enrolled in this month");
-        courses=sc.nextInt();
+        courses=keyBoard.nextInt();
 
         if(packageNo==1){
             baseCost=10;

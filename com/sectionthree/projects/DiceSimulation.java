@@ -1,4 +1,4 @@
-package sectionthree;
+package com.sectionthree.projects;
 
 import java.util.Random;
 

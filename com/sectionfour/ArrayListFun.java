@@ -1,4 +1,4 @@
-package sectionfour;
+package com.sectionfour;
 
 import java.util.ArrayList;
 

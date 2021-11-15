@@ -1,4 +1,4 @@
-package sectionthree;
+package com.sectionthree;
 
 public class ControlStatementsIntro {
     public static void main(String[] args){

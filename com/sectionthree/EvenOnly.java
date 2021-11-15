@@ -1,4 +1,4 @@
-package sectionthree;
+package com.sectionthree;
 
 public class EvenOnly {
     public static void main(String[] args){

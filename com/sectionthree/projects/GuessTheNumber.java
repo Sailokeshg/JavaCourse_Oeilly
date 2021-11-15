@@ -1,4 +1,4 @@
-package sectionthree;
+package com.sectionthree.projects;
 
 import java.util.Random;
 import java.util.Scanner;
@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class GuessTheNumber {
     public static void main(String[] args) {
         Random random = new Random();
-        Scanner sc = new Scanner(System.in);
+        Scanner keyBoard = new Scanner(System.in);
         int myRandomNumber;
         int generatedRandomNumber;
         boolean guessedNumber=false;
@@ -14,7 +14,7 @@ public class GuessTheNumber {
 
         while (!guessedNumber) {
             System.out.println("Guess the number");
-            myRandomNumber = sc.nextInt();
+            myRandomNumber = keyBoard.nextInt();
             if (myRandomNumber >= 1 && myRandomNumber <= 100) {
                 if (myRandomNumber == generatedRandomNumber) {
                     System.out.println("Congrats you guessed it right");

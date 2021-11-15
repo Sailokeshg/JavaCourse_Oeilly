@@ -1,13 +1,13 @@
-package sectionthree;
+package com.sectionthree;
 
 import java.util.Scanner;
 
 public class DivisibleByThree {
     public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
+        Scanner keyBoard = new Scanner(System.in);
         int input;
         System.out.println("Enter an integer");
-        input=sc.nextInt();
+        input=keyBoard.nextInt();
         if(input%3==0){
             System.out.println(input+ " is divisible by 3");
         }

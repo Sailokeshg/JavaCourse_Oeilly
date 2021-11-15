@@ -1,16 +1,16 @@
-package sectionthree;
+package com.sectionthree;
 
 import java.util.Scanner;
 
 public class SelectionFun {
     public static void main(String[] args){
-        Scanner sc=new Scanner(System.in);
+        Scanner keyBoard =new Scanner(System.in);
         int age;
 
         System.out.println("Welcome to the pub");
 
         System.out.println("Enter your age");
-        age=sc.nextInt();
+        age=keyBoard.nextInt();
 
         if(age>=21){
             System.out.println("You can have your drinks");

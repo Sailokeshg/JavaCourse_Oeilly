@@ -1,4 +1,4 @@
-package sectionthree;
+package com.sectionthree;
 
 public class ContinueBreak {
     public static void main(String[] args){
@@ -7,7 +7,8 @@ public class ContinueBreak {
         while(count<10){
             if(count==5){
                 count++;
-                break;
+                continue;
+                //break;
             }
             System.out.print(count+ "\t");
             count++;
