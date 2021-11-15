@@ -1,4 +1,4 @@
-package Section_Four;
+package sectionfour;
 
 public class MoreArrayFun {
     public static void main(String[] args){

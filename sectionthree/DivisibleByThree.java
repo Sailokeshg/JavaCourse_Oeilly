@@ -1,8 +1,8 @@
-package Section_Three;
+package sectionthree;
 
 import java.util.Scanner;
 
-public class Proj3_2_DivisibleByThree {
+public class DivisibleByThree {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int input;

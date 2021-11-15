@@ -1,4 +1,4 @@
-package Section_Four;
+package sectionfour;
 
 public class ArrayFun {
     public static void main(String[] args){

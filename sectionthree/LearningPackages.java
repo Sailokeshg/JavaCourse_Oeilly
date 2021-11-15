@@ -1,25 +1,29 @@
-package Section_Three;
+package sectionthree;
 
 import java.util.Scanner;
 
-public class Proj3_1_LearningPackages {
+public class LearningPackages {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        int pkgno,courses,totalCost,costPerCourse,baseCost;
+        int packageNo;
+        int courses;
+        int totalCost;
+        int costPerCourse;
+        int baseCost;
         int numIncluded;
 
         System.out.println("Enter your desired package");
-        pkgno=sc.nextInt();
+        packageNo=sc.nextInt();
 
         System.out.println("No of courses enrolled in this month");
         courses=sc.nextInt();
 
-        if(pkgno==1){
+        if(packageNo==1){
             baseCost=10;
             costPerCourse=6;
             numIncluded=2;
         }
-        else if(pkgno==2){
+        else if(packageNo==2){
             baseCost=12;
             costPerCourse=4;
             numIncluded=4;
