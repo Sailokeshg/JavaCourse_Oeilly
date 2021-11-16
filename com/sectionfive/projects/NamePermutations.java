@@ -16,8 +16,8 @@ public class NamePermutations {
         int indexOfSpace;
         final int NUMBER_OF_NAMES=5;
 
-        for(int i=0;i<NUMBER_OF_NAMES;i++){
-            System.out.println("Enter  full names of person "+i+"\t");
+        for(int name=0;name<NUMBER_OF_NAMES;name++){
+            System.out.println("Enter  full names of person "+name+"\t");
             fullName=keyBoard.nextLine();
             indexOfSpace = fullName.indexOf(" ");
             firstName = fullName.substring(0,indexOfSpace);
