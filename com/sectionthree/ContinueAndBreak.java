@@ -1,6 +1,6 @@
 package com.sectionthree;
 
-public class ContinueBreak {
+public class ContinueAndBreak {
     public static void main(String[] args){
         int count=0;
 

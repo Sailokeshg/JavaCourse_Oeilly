@@ -2,7 +2,7 @@ package com.sectionthree;
 
 import java.util.Scanner;
 
-public class RepetetionFun {
+public class Repetetion {
     public static void main(String[] args){
         Scanner keyBoard = new Scanner(System.in);
         int input;

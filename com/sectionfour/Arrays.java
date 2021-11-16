@@ -1,6 +1,6 @@
 package com.sectionfour;
 
-public class ArrayFun {
+public class Arrays {
     public static void main(String[] args){
         int[] myArray =new int[5];
         myArray[0]=10;

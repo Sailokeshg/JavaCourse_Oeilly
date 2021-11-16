@@ -2,15 +2,15 @@ package com.sectionfour;
 
 import java.util.ArrayList;
 
-public class WrapperFun {
+public class WrapperClass {
     public static void main(String[] args){
-        ArrayList<Integer> myAl = new ArrayList<>();
+        ArrayList<Integer> myArrayList = new ArrayList<>();
 
-        myAl.add(10);
-        myAl.add(22);
+        myArrayList.add(10);
+        myArrayList.add(22);
 
-        for(int i:myAl){
-            System.out.println(i);
+        for(int listValues:myArrayList){
+            System.out.println(listValues);
         }
         String someValue="120";
         int numericValue = Integer.parseInt(someValue);

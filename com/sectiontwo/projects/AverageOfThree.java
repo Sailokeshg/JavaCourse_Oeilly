@@ -8,10 +8,12 @@ public class AverageOfThree {
         Double varTwo;
         Double varThree;
         System.out.println("Enter three real numbers");
-        Scanner sc=new Scanner(System.in);
-        varOne=sc.nextDouble();
-        varTwo= sc.nextDouble();
-        varThree= sc.nextDouble();
+        Scanner keyBoard=new Scanner(System.in);
+
+        varOne=keyBoard.nextDouble();
+        varTwo= keyBoard.nextDouble();
+        varThree= keyBoard.nextDouble();
+
         Double average=(varOne+varTwo+varThree)/3;
         System.out.println("Average is " +average);
 

@@ -2,7 +2,7 @@ package com.sectionthree;
 
 import java.util.Random;
 
-public class RandomFun {
+public class RandomNumGenerator {
     public static void main(String[] args){
         Random random = new Random();
         int myRandomNumber;

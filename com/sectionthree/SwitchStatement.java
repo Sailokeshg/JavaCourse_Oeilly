@@ -2,7 +2,7 @@ package com.sectionthree;
 
 import java.util.Scanner;
 
-public class GradeFun {
+public class SwitchStatement {
     public static void main(String[] args){
         Scanner keyBoard=new Scanner(System.in);
 
