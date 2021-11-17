@@ -1,0 +1,6 @@
+John is 30 years old 
+Bob is 15 years old 
+sam is 34 years old 
+ram is 12 years old 
+thor is 56 years old 
+loki is 43 years old 

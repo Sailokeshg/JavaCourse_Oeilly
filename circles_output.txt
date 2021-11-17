@@ -1,0 +1,30 @@
+Radius: 13.0
+Circumference: 81.681
+Area: 530.929
+
+
+Radius: 23.0
+Circumference: 144.513
+Area: 1661.903
+
+
+Radius: 1.0
+Circumference: 6.283
+Area: 3.142
+
+
+Radius: 4.0
+Circumference: 25.133
+Area: 50.265
+
+
+Radius: 45.0
+Circumference: 282.743
+Area: 6361.725
+
+
+Radius: 33.0
+Circumference: 207.345
+Area: 3421.194
+
+
