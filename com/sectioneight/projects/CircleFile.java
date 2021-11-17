@@ -33,7 +33,7 @@ public class CircleFile {
     public static void printArrayList(ArrayList<Circle> circles){
         PrintWriter writer;
         try {
-            writer = new PrintWriter("circles_ouput.txt");
+            writer = new PrintWriter("circles_output.txt");
             for ( Circle circle : circles ) {
                 System.out.println("Radius: " + circle.getRadius());
                 System.out.println("Circumference: " + String.format("%.3f", circle.circumference()));
