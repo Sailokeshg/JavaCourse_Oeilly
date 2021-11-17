@@ -1,6 +1,6 @@
 package com.sectionfive;
 
-import java.util.Locale;
+
 
 public class StringMethodsTwo {
     public static void main(String[] args) {

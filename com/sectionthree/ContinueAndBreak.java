@@ -8,7 +8,7 @@ public class ContinueAndBreak {
             if(count==5){
                 count++;
                 continue;
-                //break;
+
             }
             System.out.print(count+ "\t");
             count++;

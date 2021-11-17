@@ -11,14 +11,14 @@ public class MethodOverloading {
         System.out.println(resultThree);
         System.out.println(resultFour);
     }
-    public static int getResult(int num) {
-        return num*2;
+    public static int getResult(int value) {
+        return value*2;
     }
     public static int getResult(int numOne,int numTwo){
         return numOne*numTwo;
     }
-    public static int getResult(int num,String value){
-        return num*Integer.parseInt(value);
+    public static int getResult(int value,String text){
+        return value*Integer.parseInt(text);
     }
     public static String getResult(String stringOne,String stringTwo){
         return stringOne+stringTwo;

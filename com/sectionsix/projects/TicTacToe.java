@@ -7,8 +7,7 @@ public class TicTacToe {
     public static void runGame(){
          String winner="";
          boolean xTurn =true;
-         int theRow= 0;
-         int theColumn =0;
+
          String[][] gameBoard = new String[3][3];
          initializeGameBoard(gameBoard);
          printCurrentBoard(gameBoard);
@@ -127,12 +126,7 @@ public class TicTacToe {
         return "";
     }
     public static boolean cellAlreadyOccupied(String[][] gameBoard,int row,int column){
-        if(gameBoard[row][column]==" "){
-            return false;
-        }
-        else{
-            return true;
-        }
+        return gameBoard[row][column]!= " ";
     }
 
 }
